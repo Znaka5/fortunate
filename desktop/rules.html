@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>The Deck Knows</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background: #0c0c0c;
+      color: #e0e0e0;
+      line-height: 1.6;
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    h1, h2, h3 {
+      color: #ff0055;
+      margin-bottom: 0.25em;
+    }
+    section {
+      margin-bottom: 3rem;
+      border-left: 4px solid #444;
+      padding-left: 1rem;
+    }
+    .effect, .rule, .meaning {
+      margin-top: 1rem;
+      padding-left: 1rem;
+    }
+    .effect::before {
+      content: "🩸 Effect:";
+      color: #ff4444;
+      display: block;
+      font-weight: bold;
+      margin-bottom: 0.25em;
+    }
+    .rule::before {
+      content: "📜 Rule:";
+      color: #aaaaff;
+      display: block;
+      font-weight: bold;
+      margin-bottom: 0.25em;
+    }
+    .meaning::before {
+      content: "🔮 Meaning:";
+      color: #88f;
+      display: block;
+      font-weight: bold;
+      margin-bottom: 0.5em;
+    }
+    ul {
+      margin: 0;
+      padding-left: 1.25rem;
+    }
+    p {
+      margin: 0.25em 0;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #333;
+      margin: 2rem 0;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🃏 The Cards Whisper</h1>
+
+  <!-- Draw Count Effects -->
+
+  <section id="one-card">
+    <h2>🪙 1 Card Drawn – <em>The Mirror Test</em></h2>
+    <p>The card defines you. No past. No future. Just a single, razor-edged truth.<br />
+    It stares back harder than you expect.</p>
+    <div class="effect">
+      <ul>
+        <li>A single dominant force has claimed your life.</li>
+        <li>You will dream of it tonight.</li>
+        <li>No matter what it was, it now walks parallel to you.</li>
+        <li>Mirrors, shadows, and screens may flicker—just once. Enough to make you doubt.</li>
+      </ul>
+    </div>
+    <div class="rule">
+      <ul>
+        <li>Do not speak the name of the card aloud after midnight.</li>
+        <li>If it smiles in your dream, do not smile back.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="two-cards">
+    <h2>🃙 2 Cards Drawn – <em>The Stranger’s Choice</em></h2>
+    <p>One card is real. The other lies.<br />
+    But lies can still come true if believed hard enough.</p>
+    <div class="effect">
+      <ul>
+        <li>Dual forces begin circling you. You won’t know which one is acting.</li>
+        <li>Choices become blurred: your yeses feel like maybes, your no’s come with whispers.</li>
+        <li>The false one may offer you exactly what you want.</li>
+        <li>The real one will wait at the edge of your reflection—where fog shouldn’t form.</li>
+      </ul>
+    </div>
+    <div class="rule">
+      <ul>
+        <li>Flip a coin on decisions for the next 24 hours.</li>
+        <li>If the coin lands on its edge, leave the room.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="three-cards">
+    <h2>🃙 3 Cards Drawn – <em>The Spiral Begins</em></h2>
+    <p>Past. Present. What follows you.<br />
+    But the third card doesn’t walk in time. It just waits.</p>
+    <div class="effect">
+      <ul>
+        <li>The first card is what haunts you.</li>
+        <li>The second is what holds you here.</li>
+        <li>The third is what will find you eventually—when you are alone.</li>
+        <li>Lights may dim in threes. Laughter may echo without a mouth.</li>
+      </ul>
+    </div>
+    <div class="rule">
+      <ul>
+        <li>Speak only in odd numbers when you feel watched.</li>
+        <li>Never knock three times unless you know who knocks back.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="four-cards">
+    <h2>🃙 4 Cards Drawn – <em>The Circle Closes</em></h2>
+    <p>North. East. South. West.<br />
+    You're surrounded. This isn’t a reading. It’s a summoning.</p>
+    <div class="effect">
+      <ul>
+        <li>You’ve completed the deck’s ritual unknowingly.</li>
+        <li>Protection or possession—the difference is just perspective now.</li>
+        <li>You may feel safe. That’s not always good.</li>
+        <li>The air around you knows your name. Sometimes it says it back.</li>
+      </ul>
+    </div>
+    <div class="rule">
+      <ul>
+        <li>Salt will fail.</li>
+        <li>The fourth card always lies. Find out which. Do not trust the others either.</li>
+      </ul>
+    </div>
+  </section>
+
+  <hr />
+
+  <h2>🃏 The Cards Whisper — And Smile</h2>
+
+  <section id="mirror" class="meaning">
+    <h3>🪞 Mirror</h3>
+    <p>You saw yourself.<br />
+    You think it was you.<br />
+    It waved first.</p>
+    <p>— When you leave the room, it stays watching.</p>
+  </section>
+
+  <section id="blood" class="meaning">
+    <h3>🩸 Blood</h3>
+    <p>It smelled sweet.<br />
+    Like memory.<br />
+    Like family.</p>
+    <p>— It spelled your name in droplets on the ceiling. You weren’t bleeding.</p>
+  </section>
+
+  <section id="broken-sword" class="meaning">
+    <h3>⚔️ Broken Sword</h3>
+    <p>It’s useless now. Or sacred.<br />
+    Some things can only be broken once.<br />
+    And only for you.</p>
+    <p>— It hums when you're angry. You don't know why.</p>
+  </section>
+
+  <section id="luck" class="meaning">
+    <h3>🍀 Luck</h3>
+    <p>You won something.<br />
+    But no one remembers what.<br />
+    And the air's just a little… thinner now.</p>
+    <p>— You keep surviving. Even when you shouldn’t. They’re watching.</p>
+  </section>
+
+  <section id="spades" class="meaning">
+    <h3>🕳️ Spades</h3>
+    <p>Something was buried.<br />
+    Then it started knocking.</p>
+    <p>— But maybe it just wants to be found. Maybe it’s you.</p>
+  </section>
+
+  <section id="fortune" class="meaning">
+    <h3>🎲 Fortune</h3>
+    <p>The wheel spun.<br />
+    You closed your eyes.<br />
+    You woke up in the same place—but something’s missing.</p>
+    <p>— You can’t lose what was never yours, right?</p>
+  </section>
+
+  <section id="star" class="meaning">
+    <h3>🌟 Star</h3>
+    <p>It blinked.<br />
+    You felt loved.<br />
+    Then it screamed.</p>
+    <p>— You still see it sometimes when you close your eyes, smiling too wide.</p>
+  </section>
+
+  <section id="pentagram" class="meaning">
+    <h3>⛧ Pentagram</h3>
+    <p>Drawn in chalk. Or bone. Or was that just dust?<br />
+    Either way, it worked.</p>
+    <p>— Now the room feels safe. Too safe. Like something's protecting you. Or feeding.</p>
+  </section>
+
+  <section id="you" class="meaning">
+    <h3>👁️ You</h3>
+    <p>All the cards were about you anyway.<br />
+    Weren’t they?</p>
+    <p>— Something inside you knows what’s coming. And it’s smiling.</p>
+  </section>
+
+  <section id="queen-of-10s" class="meaning">
+    <h3>👑 Queen of 10’s</h3>
+    <p>She offered you a choice.<br />
+    You said yes.<br />
+    You don’t remember the question.</p>
+    <p>— She’s counting down. You’re always on the tenth second.</p>
+  </section>
+
+</body>
+</html>

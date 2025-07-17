@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(180, 255, 214);
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-style: italic;
+    color: rgb(4, 114, 19);
+}
+
+p {
+    color: rgb(247, 123, 123);
+    font-weight: bolder;
+}
+
+.game-box {
+    width: 70%;
+    height: 70%;
+    border: solid rgb(94, 201, 99);
+    border-radius: 25cm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.deck {
+    width: 15%;
+    height: 40%;
+    background-image: url('/public/card img.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card-box {
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    border: solid rgb(0, 255, 200);
+    display: flex;
+    gap: 5px;
+    background-color: rgb(161, 252, 202);
+}
+
+
+.card-box > div {
+    width: fit-content;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 80%;
+    padding: 5px;
+    background-color: aquamarine;
+    border: solid aqua;
+    font-size: 35px;
+    text-align: center;
+}
+
+a {
+    color: rgb(0, 255, 0);
+}
+
+
+footer {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    color: rgb(140, 0, 255);
+}
